@@ -1,0 +1,198 @@
+package App.Nekobook.main;
+
+public class Professorx {
+
+	private String Nome_prof;
+	public String getNome_prof() {
+		return Nome_prof;
+		
+	}
+	public void setNome_prof(String nome_prof) {
+		Nome_prof = nome_prof;
+	}
+	public int getCpf() {
+		return Cpf;
+	}
+	public void setCpf(int cpf) {
+		Cpf = cpf;
+	}
+	public String getEmail() {
+		return Email;
+	}
+	public void setEmail(String email) {
+		Email = email;
+	}
+	public long getId_prof() {
+		return id_prof;
+	}
+	public void setId_prof(long id_prof) {
+		this.id_prof = id_prof;
+	}
+	private int Cpf;
+	private String Email;
+	private long id_prof;
+	
+	
+}
+    
+  
+package App.Nekobook.main;
+
+public class Sala_Leitura {
+
+	public int getQuantidade_Prof() {
+		return Quantidade_Prof;
+	}
+	public void setQuantidade_Prof(int quantidade_Prof) {
+		Quantidade_Prof = quantidade_Prof;
+	}
+	public int getQuantidade_Alunx() {
+		return Quantidade_Alunx;
+	}
+	public void setQuantidade_Alunx(int quantidade_Alunx) {
+		Quantidade_Alunx = quantidade_Alunx;
+	}
+	public int getQuantidade_Livro() {
+		return Quantidade_Livro;
+	}
+	public void setQuantidade_Livro(int quantidade_Livro) {
+		Quantidade_Livro = quantidade_Livro;
+	}
+	public String getTipo_Sala_Leitura() {
+		return Tipo_Sala_Leitura;
+	}
+	public void setTipo_Sala_Leitura(String tipo_Sala_Leitura) {
+		Tipo_Sala_Leitura = tipo_Sala_Leitura;
+	}
+	public String getTitulo_Sala_Leitura() {
+		return Titulo_Sala_Leitura;
+	}
+	public void setTitulo_Sala_Leitura(String titulo_Sala_Leitura) {
+		Titulo_Sala_Leitura = titulo_Sala_Leitura;
+	}
+	public String getDescricao_Sala_Leitura() {
+		return Descricao_Sala_Leitura;
+	}
+	public void setDescricao_Sala_Leitura(String descricao_Sala_Leitura) {
+		Descricao_Sala_Leitura = descricao_Sala_Leitura;
+	}
+	private int Quantidade_Prof;
+	private int Quantidade_Alunx;
+	private int Quantidade_Livro;
+	private String Tipo_Sala_Leitura;
+	private String Titulo_Sala_Leitura;
+	private String Descricao_Sala_Leitura ;
+}
+
+
+package App.Nekobook.main;
+
+public class Alunx {
+
+	public String getNomeAlunx() {
+		return NomeAlunx;
+	}
+	public void setNomeAlunx(String nomeAlunx) {
+		NomeAlunx = nomeAlunx;
+	}
+	public int getCpf() {
+		return Cpf;
+	}
+	public void setCpf(int cpf) {
+		Cpf = cpf;
+	}
+	public long getId_Alunx() {
+		return Id_Alunx;
+	}
+	public void setId_Alunx(long id_Alunx) {
+		Id_Alunx = id_Alunx;
+	}
+	public String getEmail() {
+		return Email;
+	}
+	public void setEmail(String email) {
+		Email = email;
+	}
+	private String NomeAlunx;
+	private int Cpf;
+	private long Id_Alunx;
+	private String Email;
+	
+}
+
+package App.Nekobook.main;
+
+public class Responsavel_Alunx {
+	
+private long ID_Responsavel;
+private String Nome_Responsavel ;
+private int CPF_Responsavel;
+private String Email_Responsavel;
+public long getID_Responsavel() {
+	return ID_Responsavel;
+}
+public void setID_Responsavel(long iD_Responsavel) {
+	ID_Responsavel = iD_Responsavel;
+}
+public String getNome_Responsavel() {
+	return Nome_Responsavel;
+}
+public void setNome_Responsavel(String nome_Responsavel) {
+	Nome_Responsavel = nome_Responsavel;
+}
+public int getCPF_Responsavel() {
+	return CPF_Responsavel;
+}
+public void setCPF_Responsavel(int cPF_Responsavel) {
+	CPF_Responsavel = cPF_Responsavel;
+}
+public String getEmail_Responsavel() {
+	return Email_Responsavel;
+}
+public void setEmail_Responsavel(String email_Responsavel) {
+	Email_Responsavel = email_Responsavel;
+}
+
+}
+
+
+package App.Nekobook.main;
+
+public class Livro {
+
+	private String Autorx_Livro;
+	public String getAutorx_Livro() {
+		return Autorx_Livro;
+	}
+	public void setAutorx_Livro(String autorx_Livro) {
+		Autorx_Livro = autorx_Livro;
+	}
+	public String getEditora_Livro() {
+		return Editora_Livro;
+	}
+	public void setEditora_Livro(String editora_Livro) {
+		Editora_Livro = editora_Livro;
+	}
+	public String getTitulo_Livro() {
+		return Titulo_Livro;
+	}
+	public void setTitulo_Livro(String titulo_Livro) {
+		Titulo_Livro = titulo_Livro;
+	}
+	public String getSinopse_Livro() {
+		return Sinopse_Livro;
+	}
+	public void setSinopse_Livro(String sinopse_Livro) {
+		Sinopse_Livro = sinopse_Livro;
+	}
+	public int getQuantidade_Pagina() {
+		return Quantidade_Pagina;
+	}
+	public void setQuantidade_Pagina(int quantidade_Pagina) {
+		Quantidade_Pagina = quantidade_Pagina;
+	}
+	private String Editora_Livro ;
+	private String Titulo_Livro;
+	private String Sinopse_Livro;
+	private int Quantidade_Pagina;
+}
