@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style2.css">
+    <title>NEKOBOOK</title>
+</head>
+
+
+<body>
+
+  <!-- **************** MAIN CONTENT START **************** -->
+  <main>
+    <header class="header mb-5 p-5 fixed">
+      <nav class="navbar navbar-expand-md fixed-top">
+          <a class="navbar-brand" href="/">
+              <img src="./images/icone_preto.png" width="100" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="./index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./sobre.html">QUEM SOMOS NÓS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./register.html">CADASTROS</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./baixar.html">BAIXE AQUI</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./login.html">LOGIN</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./livros.html">LIVROS</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+    <!-- Container START -->
+    <div class="container p-0">
+      <div class="row justify-content-center align-items-center vh-100 py-5">
+        <!-- Main content START -->
+        <div class="col-sm-10 col-md-8 col-lg-7 col-xl-6 col-xxl-5">
+          <!-- Sign up START -->
+          <div class="card card-body rounded-3 p-4 p-sm-5 mb-4">
+            <div class="text-center">
+              <!-- Title -->
+              <h1 class="mb-2">Registre-se</h1>
+              <span class="d-block">Já possui uma conta? <a href="./login.html">Entre aqui</a></span>
+            </div>
+            <!-- Form START -->
+            <form action="Registrar" method="post" class="mt-4">
+              <!-- Nome -->
+              <label for="nome" class="fs-5">Seu nome:</label>
+              <div class="mb-3 input-group-lg">
+                <input type="text" name="nome" class="form-control" placeholder="Digite seu nome">
+              </div>
+              <!--cpf-->
+              <label for="cpf" class="fs-5">Seu CPF:</label>
+              <div class="mb-3 input-group-lg">
+                <input type="text" name="cpf" class="form-control" placeholder="Digite seu CPF">
+              </div>
+              <!--telefone-->
+              <label for="fone" class="fs-5">Fone:</label>
+              <div class="mb-3 input-group-lg">
+                <input type="number" name="fone" class="form-control" placeholder="Digite seu Telefone">
+              </div>
+              <!-- Email -->
+              <label for="email" class="fs-5 d-flex">E-mail:</label>
+              <div class="mb-3 input-group-lg">
+                <input type="email" name="email" class="form-control" placeholder="Digite seu e-mail">
+              </div>
+              <!-- New password -->
+              <div class="mb-3 position-relative">
+                <!-- Input group -->
+                <label for="senha" class="fs-5">Senha:</label>
+                <div class="input-group input-group-lg">
+                  <input class="form-control" type="password" name="senha" id="psw-input"
+                    placeholder="Digite sua senha">
+                </div>
+              </div>
+              <!-- Confirm password -->
+              <label for="confirme-senha" class="fs-5">Confirme sua senha:</label>
+              <div class="mb-3 input-group-lg">
+                <input class="form-control" type="password" placeholder="Confirme sua senha">
+              </div>
+              <!-- Keep me signed in -->
+              <div class="mb-3 text-center">
+                <input type="checkbox" class="form-check-input" id="keepsingnedCheck">
+                <label class="form-check-label" for="keepsingnedCheck"> Mantenha-me conectado</label>
+              </div>
+              <!-- Button -->
+              <div class="d-grid text-center"><button type="submit" class="btn btn-lg btn-primary">Registrar</button>
+              </div>
+              <!-- Copyright -->
+              <p class="mb-0 mt-3 text-center">©2022 <a target="_blank" href="./index.html">Nekobook</a> All rights
+                reserved</p>
+            </form>
+            <!-- Form END -->
+          </div>
+          <!-- Sign up END -->
+        </div>
+      </div> <!-- Row END -->
+    </div>
+    <!-- Container END -->
+    <div class="container margin-top">
+    </div>
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Voltar ao topo</a>
+        </p>
+        <p>Oferecimento de © NEKOBOOK.</p>
+        <p>Conheçe nossas redes sociais? <a href="#">Instagram e Facebook</a></p>
+        <p">Boa Leitura!</p>
+      </div>
+    </footer>
+  </main>
+
+
+  <!-- Bootstrap JS -->
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Template Functions -->
+  <script src="assets/js/functions.js"></script>
+
+
+</body>
+
+</html>

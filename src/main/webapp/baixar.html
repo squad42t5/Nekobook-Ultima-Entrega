@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style/style.css">
-    <title>NEKOBOOK</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style/style.css">
+        <title>NEKOBOOK</title>
+    </head>
 
 <body>
-    <header class="header mb-5">
+    <header class="header mb-5 p-5 fixed">
         <nav class="navbar navbar-expand-md fixed-top">
             <a class="navbar-brand" href="/">
-                <img src="./assets/images/icone_branco.png" width="100" alt="logo">
+                <img src="./images/icone_preto.png" width="100" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
                         <a class="nav-link" href="./sobre.html">QUEM SOMOS NÓS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cadastro.html">CADASTROS</a>
+                        <a class="nav-link" href="./register.html">CADASTROS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./baixar.html">BAIXE AQUI</a>
@@ -45,18 +45,21 @@
             </div>
         </nav>
     </header>
-    <div class="container" style="margin-top:240px !important">
-        <div class="row featurette section" id="quem-somos-nos">
-            <div class="col-5">
-                <img src="./assets/images/icone_preto.png" width="400" height="400" alt="">
+    <div class="container" style="margin-top: 240px !important">
+        <div class="row featurette section" id="baixe-aqui">
+            <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+                <h2 class="featurette-heading">Baixe Aqui</h2>
+                <span class="text-muted">Você pode encontrar nosso App nas principais plataformas!</span>
             </div>
-            <div class="col-7 d-flex align-items-center flex-column justify-content-center">
-                <h2 class="featurette-heading">
-                    Quem somos nós. 
-                </h2>
-                <p class="lead">
-                    A Nekobook é uma iniciativa que visa promover o interesse pela leitura por meio da busca por recompensas. De maneira lúdica as pessoas podem buscar a leitura de conteúdos indicados por passadores de infrormacao
-                </p>                
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6 d-flex align-items-center justify-content-center">
+                        <img src="./images/pt-br_badge_print_generic.png" width="350" alt="">
+                    </div>
+                    <div class="col-6 d-flex align-items-center justify-content-center">
+                        <img src="./images/Download_on_the_App_Store_Badge_PTBR_RGB_blk_092917.svg" width="300" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
